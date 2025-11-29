@@ -81,7 +81,7 @@ Predicciones interactivas
 
 ---
 
-## 🔬 Explicación del Algoritmo de Regresión
+##  Explicación del Algoritmo de Regresión
 
 ### ¿Por Qué QR Decomposition?
 
@@ -134,7 +134,7 @@ $$MAE = \frac{1}{n}\sum|y_i - \hat{y}_i|$$
 
 ---
 
-## 💾 Procesamiento de Variables Categóricas
+## Procesamiento de Variables Categóricas
 
 ### El Problema
 
