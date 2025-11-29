@@ -1,6 +1,6 @@
-# 📊 Predictor de Ansiedad Académica - Regresión Lineal Múltiple
+#  Predictor de Ansiedad Académica - Regresión Lineal Múltiple
 
-## 🎯 Descripción General
+##  Descripción General
 
 Esta es una aplicación web moderna construida con **Next.js 16** y **React 19** que implementa un modelo de **regresión lineal múltiple** robusto para predecir niveles de ansiedad académica basado en factores como horas de estudio, GPA, horas de sueño, ejercicio y apoyo social.
 
@@ -8,7 +8,7 @@ La aplicación fue diseñada específicamente para superar limitaciones comunes 
 
 ---
 
-## ✨ Características Principales
+##  Características Principales
 
 ### 1. **Carga Flexible de Datos**
 - Soporta archivos **Excel** (.xlsx, .xls), **CSV** y **TSV**
@@ -42,26 +42,21 @@ La aplicación fue diseñada específicamente para superar limitaciones comunes 
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
+##  Arquitectura del Proyecto
 
 ### Estructura de Carpetas
 
-\`\`\`
-src/
+
 ├── app/
-│   ├── page.tsx              # Componente principal (orquestador de estado)
-│   ├── layout.tsx            # Layout raíz con metadata
-│   └── globals.css           # Estilos globales
-├── components/
-│   ├── regression/
-│   │   ├── data-tab.tsx      # Carga y preview de datos
-│   │   ├── config-tab.tsx    # Configuración y entrenamiento
-│   │   ├── predict-tab.tsx   # Interfaz de predicción
-│   │   ├── results-tab.tsx   # Visualización de resultados
-│   │   └── index.ts          # Exportaciones
-│   └── ui/                   # Componentes shadcn/ui
-└── lib/
-    └── utils.ts              # Funciones de utilidad
+│   ├── page.tsx          # Componente principal (orquestador de estado)
+│   ├── layout.tsx        # Layout raíz con metadata
+│   └── globals.css       # Estilos globales
+│   ├── data-tab.tsx      # Carga y preview de datos
+│   ├── config-tab.tsx    # Configuración y entrenamiento
+│   ├── predict-tab.tsx   # Interfaz de predicción
+│   ├── results-tab.tsx   # Visualización de resultados
+│   │   index.ts          # Exportaciones
+    └── utils.ts          # Funciones de utilidad
 \`\`\`
 
 ### Flujo de Datos
@@ -192,7 +187,7 @@ const encodingMap = {
 
 ---
 
-## 📊 Ejemplo Práctico: Predicción de Ansiedad Académica
+## Ejemplo Práctico: Predicción de Ansiedad Académica
 
 ### Dataset Original
 
@@ -245,7 +240,7 @@ Usuario ajusta deslizadores:
 
 ---
 
-## 🚀 Guía de Uso
+##  Guía de Uso
 
 ### Paso 1: Cargar Datos
 1. Ve a la pestaña **"Datos"**
@@ -273,7 +268,7 @@ Usuario ajusta deslizadores:
 
 ---
 
-## 🔧 Stack Tecnológico
+## Stack Tecnológico
 
 ### Frontend
 - **Next.js 16**: Framework React con SSR/SSG
@@ -298,19 +293,19 @@ Usuario ajusta deslizadores:
 
 ---
 
-## 📈 Rendimiento y Limitaciones
+##  Rendimiento y Limitaciones
 
 ### ¿Cuándo funciona bien?
-- ✅ Datos sin outliers extremos
-- ✅ Variables independientes sin alta colinealidad
-- ✅ Relación lineal entre variables
-- ✅ Mínimo 10-15 observaciones
+-  Datos sin outliers extremos
+-  Variables independientes sin alta colinealidad
+-  Relación lineal entre variables
+-  Mínimo 10-15 observaciones
 
 ### Limitaciones Conocidas
-- ❌ No maneja automáticamente outliers
-- ❌ Solo relaciones lineales (considerar transformaciones)
-- ❌ Label encoding pueden perder orden ordinal (estudiar one-hot si es necesario)
-- ❌ No incluye intervalos de confianza
+- No maneja automáticamente outliers
+- Solo relaciones lineales (considerar transformaciones)
+- Label encoding pueden perder orden ordinal (estudiar one-hot si es necesario)
+- No incluye intervalos de confianza
 
 ---
 
@@ -338,7 +333,7 @@ Abre http://localhost:3000 en tu navegador.
 
 ---
 
-## 📚 Referencias Matemáticas
+## Referencias Matemáticas
 
 ### QR Decomposition (Gram-Schmidt)
 - Wikipedia: https://en.wikipedia.org/wiki/QR_decomposition
@@ -354,19 +349,8 @@ Abre http://localhost:3000 en tu navegador.
 
 ---
 
-## 👨‍💻 Autor
 
-Desarrollado con ❤️ usando v0 y Next.js 16
-
----
-
-## 📄 Licencia
-
-MIT License - Usa libremente en tus proyectos
-
----
-
-## 🤝 Contribuciones
+## Contribuciones
 
 ¿Encontraste un bug? ¿Ideas para mejoras?
 
@@ -378,7 +362,7 @@ MIT License - Usa libremente en tus proyectos
 
 ---
 
-## ⚡ Tips para Mejores Resultados
+## Tips para Mejores Resultados
 
 1. **Normaliza tus datos**: Si las escalas son muy diferentes, considera normalización
 2. **Verifica outliers**: Visualiza tus datos antes de entrenar
